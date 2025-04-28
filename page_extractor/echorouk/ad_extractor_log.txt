@@ -1,0 +1,145 @@
+2025-04-27 17:51:16,863 - echorouk_ad_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 17:51:16,864 - echorouk_ad_extractor - INFO - Gemini API initialized successfully
+2025-04-27 17:52:40,878 - echorouk_ad_extractor - INFO - Filtered to 5 PDFs by date range
+2025-04-27 17:52:40,881 - echorouk_ad_extractor - INFO - Found 5 PDF files to process
+2025-04-27 17:52:41,547 - echorouk_ad_extractor - INFO - Analyzing PDF: echorouk_2025-04-20_7993.pdf (26 pages)
+2025-04-27 17:53:19,571 - echorouk_ad_extractor - INFO - Analyzing page 1 of echorouk_2025-04-20_7993.pdf
+2025-04-27 17:53:19,674 - echorouk_ad_extractor - ERROR - Error in OCR detection: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-27 17:55:06,540 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 17:55:07,047 - echorouk_ad_extractor - INFO - Analyzing page 2 of echorouk_2025-04-20_7993.pdf
+2025-04-27 17:55:07,180 - echorouk_ad_extractor - ERROR - Error in OCR detection: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-27 17:56:09,454 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 17:56:09,961 - echorouk_ad_extractor - INFO - Analyzing page 3 of echorouk_2025-04-20_7993.pdf
+2025-04-27 17:56:10,075 - echorouk_ad_extractor - ERROR - Error in OCR detection: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-27 17:58:39,336 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 17:58:39,842 - echorouk_ad_extractor - INFO - Analyzing page 4 of echorouk_2025-04-20_7993.pdf
+2025-04-27 17:58:39,994 - echorouk_ad_extractor - ERROR - Error in OCR detection: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-27 17:59:23,753 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 17:59:24,260 - echorouk_ad_extractor - INFO - Analyzing page 5 of echorouk_2025-04-20_7993.pdf
+2025-04-27 17:59:24,467 - echorouk_ad_extractor - ERROR - Error in OCR detection: tesseract is not installed or it's not in your PATH. See README file for more information.
+2025-04-27 18:00:21,329 - echorouk_ad_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 18:00:21,330 - echorouk_ad_extractor - INFO - Gemini API initialized successfully
+2025-04-27 18:00:43,019 - echorouk_ad_extractor - INFO - Filtered to 2 PDFs by issue number range
+2025-04-27 18:00:43,021 - echorouk_ad_extractor - INFO - Found 2 PDF files to process
+2025-04-27 18:00:43,261 - echorouk_ad_extractor - INFO - Analyzing PDF: echorouk_2025-04-23_7996.pdf (26 pages)
+2025-04-27 18:01:15,776 - echorouk_ad_extractor - INFO - Analyzing page 1 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:01:15,782 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:03:23,868 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:03:24,369 - echorouk_ad_extractor - INFO - Analyzing page 2 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:03:24,373 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:03:55,843 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:03:56,345 - echorouk_ad_extractor - INFO - Analyzing page 3 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:03:56,355 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:04:28,428 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:04:28,930 - echorouk_ad_extractor - INFO - Analyzing page 4 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:04:28,933 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:04:53,504 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:04:54,006 - echorouk_ad_extractor - INFO - Analyzing page 5 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:04:54,015 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:05:13,492 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:05:14,000 - echorouk_ad_extractor - INFO - Analyzing page 6 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:05:14,004 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:05:43,641 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:05:44,142 - echorouk_ad_extractor - INFO - Analyzing page 7 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:05:44,155 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:06:23,534 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:06:24,036 - echorouk_ad_extractor - INFO - Analyzing page 8 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:06:24,041 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:06:48,253 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:06:48,754 - echorouk_ad_extractor - INFO - Analyzing page 9 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:06:48,758 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:07:06,887 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:07:07,397 - echorouk_ad_extractor - INFO - Analyzing page 10 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:07:07,406 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:07:48,029 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:07:48,531 - echorouk_ad_extractor - INFO - Analyzing page 11 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:07:48,534 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:08:32,757 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:08:33,259 - echorouk_ad_extractor - INFO - Analyzing page 12 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:08:33,263 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:08:47,880 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:08:48,390 - echorouk_ad_extractor - INFO - Analyzing page 13 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:08:48,407 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:09:31,789 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:09:32,292 - echorouk_ad_extractor - INFO - Analyzing page 14 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:09:32,298 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:10:06,520 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:10:07,022 - echorouk_ad_extractor - INFO - Analyzing page 15 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:10:07,031 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:10:43,232 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:10:43,734 - echorouk_ad_extractor - INFO - Analyzing page 16 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:10:43,737 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:11:36,967 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:11:37,479 - echorouk_ad_extractor - INFO - Analyzing page 17 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:11:37,487 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:12:22,544 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:12:23,051 - echorouk_ad_extractor - INFO - Analyzing page 18 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:12:23,072 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:13:04,302 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:13:04,812 - echorouk_ad_extractor - INFO - Analyzing page 19 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:13:04,824 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:13:23,755 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:13:24,257 - echorouk_ad_extractor - INFO - Analyzing page 20 of echorouk_2025-04-23_7996.pdf
+2025-04-27 18:13:24,261 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:14:02,683 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:14:03,324 - echorouk_ad_extractor - INFO - Analyzing PDF: echorouk_2025-04-24_7997.pdf (26 pages)
+2025-04-27 18:14:36,335 - echorouk_ad_extractor - INFO - Analyzing page 1 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:14:36,341 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:15:12,183 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:15:12,684 - echorouk_ad_extractor - INFO - Analyzing page 2 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:15:12,688 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:15:41,047 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:15:41,548 - echorouk_ad_extractor - INFO - Analyzing page 3 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:15:41,553 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:16:08,723 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:16:09,225 - echorouk_ad_extractor - INFO - Analyzing page 4 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:16:09,230 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:16:35,611 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:16:36,113 - echorouk_ad_extractor - INFO - Analyzing page 5 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:16:36,140 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:17:05,209 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:17:05,710 - echorouk_ad_extractor - INFO - Analyzing page 6 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:17:05,719 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:17:35,515 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:17:36,017 - echorouk_ad_extractor - INFO - Analyzing page 7 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:17:36,026 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:18:08,152 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:18:08,654 - echorouk_ad_extractor - INFO - Analyzing page 8 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:18:08,663 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:18:43,428 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:18:43,930 - echorouk_ad_extractor - INFO - Analyzing page 9 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:18:43,939 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:19:03,332 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:19:03,834 - echorouk_ad_extractor - INFO - Analyzing page 10 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:19:03,840 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:19:42,071 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:19:42,573 - echorouk_ad_extractor - INFO - Analyzing page 11 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:19:42,576 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:20:04,798 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:20:05,302 - echorouk_ad_extractor - INFO - Analyzing page 12 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:20:05,310 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:20:23,419 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:20:23,921 - echorouk_ad_extractor - INFO - Analyzing page 13 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:20:23,930 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:20:43,790 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:20:44,295 - echorouk_ad_extractor - INFO - Analyzing page 14 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:20:44,299 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:21:25,311 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:21:25,814 - echorouk_ad_extractor - INFO - Analyzing page 15 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:21:25,819 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:22:15,649 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:22:16,150 - echorouk_ad_extractor - INFO - Analyzing page 16 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:22:16,156 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:22:50,488 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:22:50,990 - echorouk_ad_extractor - INFO - Analyzing page 17 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:22:50,996 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:23:24,391 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:23:24,893 - echorouk_ad_extractor - INFO - Analyzing page 18 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:23:24,902 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:24:08,458 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:24:08,959 - echorouk_ad_extractor - INFO - Analyzing page 19 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:24:08,966 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:24:23,151 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:24:23,653 - echorouk_ad_extractor - INFO - Analyzing page 20 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:24:23,662 - echorouk_ad_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:24:54,546 - echorouk_ad_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.

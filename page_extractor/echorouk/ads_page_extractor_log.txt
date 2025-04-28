@@ -1,0 +1,85 @@
+2025-04-27 18:34:16,508 - echorouk_ads_page_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 18:34:16,508 - echorouk_ads_page_extractor - INFO - Gemini API initialized successfully
+2025-04-27 18:34:47,876 - echorouk_ads_page_extractor - INFO - Filtered to 1 PDFs by date range
+2025-04-27 18:34:47,877 - echorouk_ads_page_extractor - INFO - Found 1 PDF files to process
+2025-04-27 18:34:48,085 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-24_7997.pdf (26 pages)
+2025-04-27 18:35:24,199 - echorouk_ads_page_extractor - INFO - Analyzing page 1 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:35:24,204 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:36:16,643 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:36:17,147 - echorouk_ads_page_extractor - INFO - Analyzing page 2 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:36:17,156 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:36:59,555 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:37:00,096 - echorouk_ads_page_extractor - INFO - Analyzing page 3 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:37:00,133 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:37:50,699 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:37:51,203 - echorouk_ads_page_extractor - INFO - Analyzing page 4 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:37:51,210 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:38:18,029 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:38:18,531 - echorouk_ads_page_extractor - INFO - Analyzing page 5 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:38:18,534 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:38:44,066 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:38:44,567 - echorouk_ads_page_extractor - INFO - Analyzing page 6 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:38:44,571 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:39:12,258 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:39:12,768 - echorouk_ads_page_extractor - INFO - Analyzing page 7 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:39:12,806 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:39:57,631 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:39:58,132 - echorouk_ads_page_extractor - INFO - Analyzing page 8 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:39:58,145 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:40:37,936 - echorouk_ads_page_extractor - ERROR - Error calling Gemini API: 404 Gemini 1.0 Pro Vision has been deprecated on July 12, 2024. Consider switching to different model, for example gemini-1.5-flash.
+2025-04-27 18:40:38,447 - echorouk_ads_page_extractor - INFO - Analyzing page 9 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:40:38,454 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:41:00,761 - echorouk_ads_page_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 18:41:00,768 - echorouk_ads_page_extractor - INFO - Gemini API initialized successfully
+2025-04-27 18:41:40,436 - echorouk_ads_page_extractor - INFO - Filtered to 1 PDFs by issue number range
+2025-04-27 18:41:40,438 - echorouk_ads_page_extractor - INFO - Found 1 PDF files to process
+2025-04-27 18:41:40,658 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-24_7997.pdf (26 pages)
+2025-04-27 18:42:14,588 - echorouk_ads_page_extractor - INFO - Analyzing page 1 of echorouk_2025-04-24_7997.pdf
+2025-04-27 18:42:14,592 - echorouk_ads_page_extractor - WARNING - Tesseract OCR is not available. Skipping OCR detection.
+2025-04-27 18:43:17,962 - echorouk_ads_page_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 18:43:17,963 - echorouk_ads_page_extractor - INFO - Gemini API initialized successfully
+2025-04-27 18:43:17,964 - echorouk_ads_page_extractor - INFO - Tesseract OCR path set to: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-04-27 18:43:31,849 - echorouk_ads_page_extractor - INFO - Found 1 PDF files to process
+2025-04-27 18:43:32,122 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2024-10-27_7848.pdf (26 pages)
+2025-04-27 18:43:32,125 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2024-10-27_7848.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:43:32,127 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2024-10-27_7848.pdf
+2025-04-27 18:43:32,161 - echorouk_ads_page_extractor - INFO - Saved ad page information to d:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\ads_pages.csv
+2025-04-27 18:44:15,782 - echorouk_ads_page_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 18:44:15,784 - echorouk_ads_page_extractor - INFO - Gemini API initialized successfully
+2025-04-27 18:44:15,785 - echorouk_ads_page_extractor - INFO - Tesseract OCR path set to: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-04-27 18:45:08,275 - echorouk_ads_page_extractor - INFO - Filtered to 8 PDFs by issue number range
+2025-04-27 18:45:08,276 - echorouk_ads_page_extractor - INFO - Found 8 PDF files to process
+2025-04-27 18:45:08,512 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-16_7990.pdf (26 pages)
+2025-04-27 18:45:08,514 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-16_7990.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:08,515 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-16_7990.pdf
+2025-04-27 18:45:08,618 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-17_7991.pdf (26 pages)
+2025-04-27 18:45:08,620 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-17_7991.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:08,621 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-17_7991.pdf
+2025-04-27 18:45:08,688 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-19_7992.pdf (16 pages)
+2025-04-27 18:45:08,691 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-19_7992.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:08,693 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-19_7992.pdf
+2025-04-27 18:45:08,758 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-20_7993.pdf (26 pages)
+2025-04-27 18:45:08,760 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-20_7993.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:08,761 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-20_7993.pdf
+2025-04-27 18:45:08,840 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-21_7994.pdf (26 pages)
+2025-04-27 18:45:08,842 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-21_7994.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:08,843 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-21_7994.pdf
+2025-04-27 18:45:08,936 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-22_7995.pdf (26 pages)
+2025-04-27 18:45:08,938 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-22_7995.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:08,939 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-22_7995.pdf
+2025-04-27 18:45:08,997 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-23_7996.pdf (26 pages)
+2025-04-27 18:45:09,002 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-23_7996.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:09,003 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-23_7996.pdf
+2025-04-27 18:45:09,059 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-24_7997.pdf (26 pages)
+2025-04-27 18:45:09,061 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-24_7997.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:45:09,062 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-24_7997.pdf
+2025-04-27 18:45:09,077 - echorouk_ads_page_extractor - INFO - Saved ad page information to d:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\ads_pages.csv
+2025-04-27 18:51:40,107 - echorouk_ads_page_extractor - INFO - Loaded configuration from D:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\config.json
+2025-04-27 18:51:40,107 - echorouk_ads_page_extractor - INFO - Gemini API initialized successfully
+2025-04-27 18:51:40,108 - echorouk_ads_page_extractor - INFO - Tesseract OCR path set to: C:\Program Files\Tesseract-OCR\tesseract.exe
+2025-04-27 18:51:56,317 - echorouk_ads_page_extractor - INFO - Filtered to 1 PDFs by issue number range
+2025-04-27 18:51:56,318 - echorouk_ads_page_extractor - INFO - Found 1 PDF files to process
+2025-04-27 18:51:56,562 - echorouk_ads_page_extractor - INFO - Analyzing PDF: echorouk_2025-04-24_7997.pdf (26 pages)
+2025-04-27 18:51:56,569 - echorouk_ads_page_extractor - ERROR - Error analyzing PDF d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-24_7997.pdf: Unable to get page count. Is poppler installed and in PATH?
+2025-04-27 18:51:56,573 - echorouk_ads_page_extractor - INFO - Found 0 ad pages in echorouk_2025-04-24_7997.pdf
+2025-04-27 18:51:56,653 - echorouk_ads_page_extractor - INFO - Saved ad page information to d:\My Projects\DZAdsSearchEngine\page_extractor\echorouk\ads_pages.csv
