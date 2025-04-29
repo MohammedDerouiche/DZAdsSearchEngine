@@ -2,12 +2,13 @@
 import google.generativeai as genai
 from PIL import Image
 import json
+import re
 from supabase import create_client, Client
 
 # Configuration
 API_KEY = "AIzaSyCB0c8HATyOGI0r14VQyQAPfVJdg06oTTo"  # Gemini API key
 MODEL_NAME = "models/gemini-1.5-flash-latest"
-IMAGE_PATH = r"ads_parser\echorouk\Screenshot_27-4-2025_194054_www.echoroukonline.com.jpeg"
+IMAGE_PATH = r"ads_parser\echorouk\Fr_with_Pub-images-4.jpg.jpeg"
 
 # Supabase credentials
 SUPABASE_URL = "https://cpoinscesxsdisaueavm.supabase.co"
@@ -101,6 +102,7 @@ WILAYAS = [
     {"id": 58, "name": "El Menia"}
 ]
 
+
 ANNOUNCEMENT_TYPES = [
     {"id": 1, "name": "Tender"},
     {"id": 2, "name": "Request for Quotation (RFQ)"},
@@ -112,12 +114,12 @@ ANNOUNCEMENT_TYPES = [
     {"id": 8, "name": "Expression of Interest"},
     {"id": 9, "name": "Contract Amendment"},
     {"id": 10, "name": "General Information"}
-]
+] 
 
 # Initialize the Gemini API
 genai.configure(api_key=API_KEY)
 
-# Create the system instruction dynamically
+# System instruction
 system_instruction = f"""
 INPUT_IMAGE: {{image}}
 PREDEFINED_LISTS:
@@ -132,15 +134,13 @@ model = genai.GenerativeModel(
     system_instruction=system_instruction
 )
 
-# Function to load an image
+# Load image
 def load_image(path: str) -> Image.Image:
-    """Load an image from a given path."""
     return Image.open(path)
 
-# Load your input image
 image = load_image(IMAGE_PATH)
 
-# Define the prompt
+# Define prompt
 prompt = """
 Detect all announcements in INPUT_IMAGE.
 For each announcement:
@@ -152,29 +152,6 @@ d. Case-insensitively match these strings against PREDEFINED_LISTS.
 e. If match → insert the full object; if no match → create {id:null, name:original_string}.
 
 Return a JSON array of announcement objects exactly matching this schema (no extra keys).
-
-OUTPUT FORMAT EXAMPLE:
-[
-  {
-    "announcement": {
-      "id": "announcement_1",
-      "title": "Tender for Office Supplies",
-      "description": "Supply of standard office stationery …",
-      "number": "TDR-2025-01",
-      "owner": "Regional Directorate of Education",
-      "terms": null,
-      "contact": "Procurement Office, …",
-      "dueAmount": null,
-      "publishDate": "2025-04-23",
-      "dueDate": "2025-05-10",
-      "status": 1
-    },
-    "wilaya": {"id": 2, "name": "wilaya_name2"},
-    "businessLine": {"id": null, "name": "Office Stationery Supply"},
-    "announcementType": {"id": 1, "name": "announcement_type1"},
-    "boundingBox": {"x_min": 60, "y_min": 200, "x_max": 480, "y_max": 550}
-  }
-]
 """
 
 # Generate content
@@ -183,44 +160,118 @@ response = model.generate_content(
     stream=False
 )
 
-# Output the response text
+# Output the raw response
 print(response.text)
 
-# Now: Parse the response and insert into Supabase
+# Clean response function
+def clean_response_text(text):
+    """
+    Cleans the response text to extract a valid JSON string.
+    """
+    match = re.search(r'\[.*\]', text, re.DOTALL)
+    if match:
+        return match.group(0)
+    else:
+        raise ValueError("No JSON array found in response.")
+
+# Now: Parse and insert into Supabase
 try:
-    announcements = json.loads(response.text)  # Parse the JSON output
+    # First, fetch existing reference data from the database
+    print("Fetching reference data from database...")
+    
+    # Get existing business lines
+    business_lines_response = supabase.table("businessline").select("id,name").execute()
+    db_business_lines = {item['name'].lower(): item['id'] for item in business_lines_response.data}
+    
+    # Get existing wilayas
+    wilayas_response = supabase.table("wilaya").select("id,wilaya_name").execute()
+    db_wilayas = {item['wilaya_name'].lower(): item['id'] for item in wilayas_response.data}
+    
+    # Get existing announcement types
+    announcement_types_response = supabase.table("announcementtype").select("id,name").execute()
+    db_announcement_types = {item['name'].lower(): item['id'] for item in announcement_types_response.data}
+    
+    print(f"Found {len(db_business_lines)} business lines, {len(db_wilayas)} wilayas, and {len(db_announcement_types)} announcement types")
+    
+    # Continue with the rest of the code
+    clean_text = clean_response_text(response.text)
+    announcements = json.loads(clean_text)
 
     for item in announcements:
-        # Prepare data for insertion
-        data_to_insert = {
-            "announcement_id": item["announcement"]["id"],
-            "title": item["announcement"]["title"],
-            "description": item["announcement"]["description"],
-            "number": item["announcement"]["number"],
-            "owner": item["announcement"]["owner"],
-            "terms": item["announcement"]["terms"],
-            "contact": item["announcement"]["contact"],
-            "due_amount": item["announcement"]["dueAmount"],
-            "publish_date": item["announcement"]["publishDate"],
-            "due_date": item["announcement"]["dueDate"],
-            "status": item["announcement"]["status"],
-            "wilaya_id": item["wilaya"]["id"],
-            "wilaya_name": item["wilaya"]["name"],
-            "business_line_id": item["businessLine"]["id"],
-            "business_line_name": item["businessLine"]["name"],
-            "announcement_type_id": item["announcementType"]["id"],
-            "announcement_type_name": item["announcementType"]["name"],
-            "bounding_box": json.dumps(item["boundingBox"])  # Save as JSON string
+        # Clean and convert dueAmount to a proper integer value
+        due_amount = None
+        if item.get("dueAmount"):
+            # Remove currency symbols and non-numeric characters
+            amount_str = str(item.get("dueAmount"))
+            # Remove currency symbol and spaces
+            amount_str = re.sub(r'[^\d,.]', '', amount_str)
+            # Replace comma with dot for decimal point
+            amount_str = amount_str.replace(',', '.')
+            try:
+                # Convert to integer instead of float
+                due_amount = int(float(amount_str))
+            except ValueError:
+                due_amount = 0
+        
+        # Map the names to actual database IDs
+        business_line_name = item["BusinessLine"].get("name", "").lower()
+        business_line_id = db_business_lines.get(business_line_name)
+        if not business_line_id:
+            # Try to find a partial match
+            for bl_name, bl_id in db_business_lines.items():
+                if business_line_name in bl_name or bl_name in business_line_name:
+                    business_line_id = bl_id
+                    break
+            if not business_line_id:
+                business_line_id = next(iter(db_business_lines.values()), None)  # Default to first ID
+        
+        wilaya_name = item["Wilaya"].get("name", "").lower()
+        wilaya_id = db_wilayas.get(wilaya_name)
+        if not wilaya_id:
+            # Try to find a partial match
+            for w_name, w_id in db_wilayas.items():
+                if wilaya_name in w_name or w_name in wilaya_name:
+                    wilaya_id = w_id
+                    break
+            if not wilaya_id:
+                wilaya_id = next(iter(db_wilayas.values()), None)  # Default to first ID
+        
+        announcement_type_name = item["AnnouncementType"].get("name", "").lower()
+        announcement_type_id = db_announcement_types.get(announcement_type_name)
+        if not announcement_type_id:
+            # Try to find a partial match
+            for at_name, at_id in db_announcement_types.items():
+                if announcement_type_name in at_name or at_name in announcement_type_name:
+                    announcement_type_id = at_id
+                    break
+            if not announcement_type_id:
+                announcement_type_id = next(iter(db_announcement_types.values()), None)  # Default to first ID
+        
+        # Build the data to insert with default values for required fields
+        data = {
+            "title": item.get("title") or "Untitled Announcement",
+            "description": item.get("description") or "No description provided",
+            "number": item.get("number") or "N/A",
+            "owner": item.get("owner") or "Unknown",
+            "terms": item.get("terms") or "Standard terms apply",
+            "contact": item.get("contact") or "No contact information",
+            "dueamount": due_amount or 0,
+            "publishdate": item.get("publishDate") or "2025-01-01",
+            "duedate": item.get("dueDate") or "2025-12-31",
+            "status": item.get("status") or 1,
+            "wilayaid": wilaya_id,  # Use actual database ID
+            "businesslineid": business_line_id,  # Use actual database ID
+            "announcementtypeid": announcement_type_id,  # Use actual database ID
         }
 
-        # Insert into your Supabase table (example table name: "announcements")
-        res = supabase.table("announcements").insert(data_to_insert).execute()
+        # Insert into Supabase
+        response = supabase.table("announcement").insert(data).execute()
 
-        # Check the result
-        if res.status_code == 201:
-            print(f"Inserted announcement: {data_to_insert['title']}")
+        # Check if insert successful
+        if hasattr(response, "data") and response.data:
+            print(f"✅ Inserted: {data['title']}")
         else:
-            print(f"Failed to insert: {res.data}")
+            print(f"⚠️ Failed to insert: {data['title']}")
 
 except Exception as e:
-    print(f"Error parsing or inserting: {e}")
+    print(f"❌ Error while parsing or inserting: {e}")

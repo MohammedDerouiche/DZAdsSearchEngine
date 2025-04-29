@@ -1,0 +1,65 @@
+2025-04-28 23:18:18,065 - echorouk_downloader - INFO - Sorted mapping by issue number (ascending)
+2025-04-28 23:18:18,079 - echorouk_downloader - INFO - Loaded 30 issue mappings from d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\publication_dates.csv
+2025-04-28 23:20:05,234 - echorouk_downloader - INFO - Starting download of 30 PDFs from index 0 to 29
+2025-04-28 23:20:05,240 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7971.pdf
+2025-04-28 23:20:05,243 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7972.pdf
+2025-04-28 23:20:05,254 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7973.pdf
+2025-04-28 23:20:09,860 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7974.pdf
+2025-04-28 23:20:09,861 - echorouk_downloader - WARNING - Failed to download issue 7973: Failed with status code 404: https://www.echoroukonline.com/wp-content/uploads/2025/03/7973.pdf
+2025-04-28 23:20:10,110 - echorouk_downloader - INFO - Successfully downloaded issue 7972: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-22_7972.pdf
+2025-04-28 23:20:10,110 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7975.pdf
+2025-04-28 23:20:16,958 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7976.pdf
+2025-04-28 23:20:16,991 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7977.pdf
+2025-04-28 23:20:17,014 - echorouk_downloader - INFO - Successfully downloaded issue 7974: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-25_7974.pdf
+2025-04-28 23:20:17,330 - echorouk_downloader - INFO - Successfully downloaded issue 7971: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-20_7971.pdf
+2025-04-28 23:20:24,875 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/03/7978.pdf
+2025-04-28 23:20:24,907 - echorouk_downloader - INFO - Successfully downloaded issue 7976: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-27_7976.pdf
+2025-04-28 23:20:25,267 - echorouk_downloader - INFO - Successfully downloaded issue 7977: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-29_7977.pdf
+2025-04-28 23:20:25,268 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7979.pdf
+2025-04-28 23:20:31,091 - echorouk_downloader - INFO - Successfully downloaded issue 7979: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-03_7979.pdf
+2025-04-28 23:20:31,092 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7980.pdf
+2025-04-28 23:20:35,004 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7981.pdf
+2025-04-28 23:20:35,006 - echorouk_downloader - WARNING - Failed to download issue 7980: Failed with status code 404: https://www.echoroukonline.com/wp-content/uploads/2025/04/7980.pdf
+2025-04-28 23:20:35,304 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7982.pdf
+2025-04-28 23:20:35,893 - echorouk_downloader - INFO - Successfully downloaded issue 7978: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-30_7978.pdf
+2025-04-28 23:20:37,013 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7983.pdf
+2025-04-28 23:20:37,029 - echorouk_downloader - WARNING - Failed to download issue 7981: Failed with status code 404: https://www.echoroukonline.com/wp-content/uploads/2025/04/7981.pdf
+2025-04-28 23:20:37,825 - echorouk_downloader - WARNING - Failed to download issue 7982: Failed with status code 404: https://www.echoroukonline.com/wp-content/uploads/2025/04/7982.pdf
+2025-04-28 23:20:37,825 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7984.pdf
+2025-04-28 23:20:38,326 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7985.pdf
+2025-04-28 23:20:38,327 - echorouk_downloader - INFO - Successfully downloaded issue 7975: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-03-26_7975.pdf
+2025-04-28 23:20:42,229 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7986.pdf
+2025-04-28 23:20:42,250 - echorouk_downloader - INFO - Successfully downloaded issue 7983: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-08_7983.pdf
+2025-04-28 23:20:47,453 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7987.pdf
+2025-04-28 23:20:47,476 - echorouk_downloader - INFO - Successfully downloaded issue 7985: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-10_7985.pdf
+2025-04-28 23:20:48,490 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7988.pdf
+2025-04-28 23:20:48,492 - echorouk_downloader - INFO - Successfully downloaded issue 7986: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-12_7986.pdf
+2025-04-28 23:20:53,711 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7989.pdf
+2025-04-28 23:20:53,742 - echorouk_downloader - INFO - Successfully downloaded issue 7987: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-13_7987.pdf
+2025-04-28 23:20:53,998 - echorouk_downloader - INFO - Successfully downloaded issue 7984: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-09_7984.pdf
+2025-04-28 23:20:53,998 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7990.pdf
+2025-04-28 23:20:58,806 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7991.pdf
+2025-04-28 23:20:58,806 - echorouk_downloader - INFO - Successfully downloaded issue 7988: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-14_7988.pdf
+2025-04-28 23:20:59,149 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7992.pdf
+2025-04-28 23:20:59,156 - echorouk_downloader - INFO - Successfully downloaded issue 7989: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-15_7989.pdf
+2025-04-28 23:21:02,347 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7993.pdf
+2025-04-28 23:21:02,348 - echorouk_downloader - INFO - Successfully downloaded issue 7990: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-16_7990.pdf
+2025-04-28 23:21:07,054 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7994.pdf
+2025-04-28 23:21:07,054 - echorouk_downloader - INFO - Successfully downloaded issue 7991: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-17_7991.pdf
+2025-04-28 23:21:07,455 - echorouk_downloader - INFO - Successfully downloaded issue 7992: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-19_7992.pdf
+2025-04-28 23:21:07,456 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7995.pdf
+2025-04-28 23:21:16,516 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7996.pdf
+2025-04-28 23:21:16,516 - echorouk_downloader - INFO - Successfully downloaded issue 7995: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-22_7995.pdf
+2025-04-28 23:21:18,689 - echorouk_downloader - INFO - Successfully downloaded issue 7994: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-21_7994.pdf
+2025-04-28 23:21:18,690 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7997.pdf
+2025-04-28 23:21:23,858 - echorouk_downloader - INFO - Successfully downloaded issue 7993: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-20_7993.pdf
+2025-04-28 23:21:23,859 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7998.pdf
+2025-04-28 23:21:24,586 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/7999.pdf
+2025-04-28 23:21:24,587 - echorouk_downloader - INFO - Successfully downloaded issue 7996: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-23_7996.pdf
+2025-04-28 23:21:27,265 - echorouk_downloader - INFO - Successfully downloaded issue 7997: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-24_7997.pdf
+2025-04-28 23:21:27,265 - echorouk_downloader - INFO - Attempting to download from: https://www.echoroukonline.com/wp-content/uploads/2025/04/8000.pdf
+2025-04-28 23:21:30,439 - echorouk_downloader - INFO - Successfully downloaded issue 7999: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-27_7999.pdf
+2025-04-28 23:21:32,822 - echorouk_downloader - INFO - Successfully downloaded issue 7998: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-26_7998.pdf
+2025-04-28 23:21:36,153 - echorouk_downloader - INFO - Successfully downloaded issue 8000: d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\echorouk_2025-04-28_8000.pdf
+2025-04-28 23:21:36,186 - echorouk_downloader - INFO - Download complete. 26 successful, 4 failed.
+2025-04-28 23:21:36,196 - echorouk_downloader - INFO - Saved failed downloads to d:\My Projects\DZAdsSearchEngine\scraper\echorouk\data\failed_downloads.txt
